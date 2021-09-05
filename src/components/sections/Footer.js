@@ -52,22 +52,11 @@ const Footer = () => (
         <FooterWrapper>
           <StyledContainer>
             <Copyright>
-              <h2>Absurd</h2>
+              <h2>Sassy Strippers</h2>
               <span>
-                Illustrations by
-                {` `}
-                <ExternalLink href="https://twitter.com/diana_valeanu">
-                  @diana_valeanu
-                </ExternalLink>
+                Site design by Spitfire Design
               </span>
             </Copyright>
-            <SocialIcons>
-              {SOCIAL.map(({ icon, link }) => (
-                <ExternalLink key={link} href={link}>
-                  <img src={icon} alt="link" />
-                </ExternalLink>
-              ))}
-            </SocialIcons>
           </StyledContainer>
         </FooterWrapper>
       </React.Fragment>

@@ -48,12 +48,9 @@ const About = () => (
         <Container>
           <Grid>
             <div>
-              <h2>Speed past the competition</h2>
+              <h2>Premier dancers that liven any party</h2>
               <p>
-                Gatsby.js builds the fastest possible website. Instead of
-                waiting to generate pages when requested, pre-build pages and
-                lift them into a global cloud of servers — ready to be delivered
-                instantly to your users wherever they are.
+                Our dancers are experienced in providing the best form of entertainment for your stag party or other occassion. 
               </p>
             </div>
             <Art>
@@ -65,23 +62,20 @@ const About = () => (
               <Img fluid={data.art_learn.childImageSharp.fluid} />
             </Art>
             <div>
-              <h2>Nothing new to learn here</h2>
+              <h2>What you get</h2>
               <p>
-                Enjoy the power of the latest web technologies – React.js ,
-                Webpack , modern JavaScript and CSS and more — all set up and
-                waiting for you to start building.
+                A stripper who will work with you to add that bit extra to your event so the memories will live on long after the occassion.
               </p>
             </div>
           </Grid>
           <Grid>
             <div>
-              <h2>Grow and build your ideas</h2>
+              <h2>Why Sassy Strippers?</h2>
               <p>
-                Waste no more time on tooling and performance. Focus on the the
-                site you want to build and nothing more.
+                We work with experienced strippers and dancers apply experience and professionalism to help make your night.
                 <br />
                 <br />
-                Gatsby is fast in every way that matters.
+                We have been adding extra spice to stag parties all across the UK.
               </p>
             </div>
             <Art>
