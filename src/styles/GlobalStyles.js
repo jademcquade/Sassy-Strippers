@@ -57,14 +57,22 @@ const GlobalStyles = createGlobalStyle`
 
   button {
     border: none;
-    background: none;
+    background-color: '#8bd8ed';
     outline: none;
-    padding: 0;
+    padding: 20px;
     cursor: pointer;
   }
 
   a {
     cursor: pointer;
+  }
+
+  form p {
+    margin-bottom: 1rem;
+  }
+
+  #success h1, p {
+    margin-bottom: 0.75rem;
   }
 `;
 

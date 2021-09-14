@@ -36,15 +36,14 @@ export default class Contact extends React.Component {
 
   render() {
     return (
-      <Section id="contact">
+      <Section id="contact" accent="secondary">
       <Container>
       <h1 style={{ marginBottom: 40 }}>Submit Enquiry</h1>
       <div>
-        <h1>Contact</h1>
         <form
           name="contact"
           method="post"
-          action="/page-2/"
+          action="/thank-you/"
           data-netlify="true"
           data-netlify-honeypot="bot-field"
           onSubmit={this.handleSubmit}
@@ -60,19 +59,25 @@ export default class Contact extends React.Component {
           <p>
             <label>
               Your name:<br />
-              <input type="text" name="name" onChange={this.handleChange} />
+              <input type="text" name="name" required onChange={this.handleChange} />
             </label>
           </p>
           <p>
             <label>
               Your email:<br />
-              <input type="email" name="email" onChange={this.handleChange} />
+              <input type="email" name="email" required onChange={this.handleChange} />
+            </label>
+          </p>
+          <p>
+            <label>
+              Event date and time:<br />
+              <input type="datetime-local" name="datetime" required onChange={this.handleChange} />
             </label>
           </p>
           <p>
             <label>
               Message:<br />
-              <textarea name="message" onChange={this.handleChange} />
+              <textarea name="message" required onChange={this.handleChange} />
             </label>
           </p>
           <p>

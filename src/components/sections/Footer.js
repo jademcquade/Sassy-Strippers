@@ -31,9 +31,6 @@ const Footer = () => (
           <StyledContainer>
             <Copyright>
               <h2>Sassy Strippers</h2>
-              <span>
-                Site design by Spitfire Design
-              </span>
             </Copyright>
           </StyledContainer>
         </FooterWrapper>
